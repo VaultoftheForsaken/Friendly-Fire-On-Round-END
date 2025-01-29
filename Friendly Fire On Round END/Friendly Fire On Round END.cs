@@ -41,10 +41,10 @@ namespace FriendlyFireOnRoundEnd
 
     public class Config : IConfig
     {
-        [Description("Whether the plugin is enabled.")]
+        
         public bool IsEnabled { get; set; } = true;
 
-        [Description("Whether to enable debug logs.")]
+       
         public bool Debug { get; set; } = false;
     }
 }
